@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import '../App.css';
+import '../css/main.css';
 
 const MovieCard = ({ movie }) => {
   const { Title, Year, imdbID, Poster } = movie;
