@@ -32,7 +32,7 @@ const MovieCard = ({ movie }) => {
       <p>Genre: {Genre}</p>
       <p>Director: {Director}</p>
       <p>Actors: {Actors}</p>
-      <p>Awards: {Awards}</p>
+      <p className="awards">Awards: {Awards}</p>
       <a href={`https://www.imdb.com/title/${imdbID}`} target="_blank" rel="noreferrer">
         View on IMDB
       </a>

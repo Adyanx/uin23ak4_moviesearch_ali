@@ -8,7 +8,7 @@ body {
     padding: 10px;
     display: flex;
     justify-content: center;
-    margin-bottom: 1.6%;
+    margin: 2%;
   }
   
   .search-input {
@@ -85,6 +85,10 @@ body {
             &:hover {
             background-color: #ff1493;
             }
+      }
+
+      .awards{
+        color: gold;
       }
     
       
