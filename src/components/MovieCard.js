@@ -18,6 +18,7 @@ const MovieCard = ({ movie }) => {
     Director = 'N/A',
     Actors = 'N/A',
     Awards = 'N/A',
+    imdbRating = 'N/A'
   } = details;
 
   const handleImageError = (event) => {
@@ -32,6 +33,7 @@ const MovieCard = ({ movie }) => {
       <p>Genre: {Genre}</p>
       <p>Director: {Director}</p>
       <p>Actors: {Actors}</p>
+      <p>Imdb Rating: {imdbRating}</p>
       <p>Awards: {Awards}</p>
       <a href={`https://www.imdb.com/title/${imdbID}`} target="_blank" rel="noreferrer">
         View on IMDB
