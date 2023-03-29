@@ -5,6 +5,7 @@ import './css/main.css';
 function App() {
   return (
     <div className="App">
+      <h1>Filmsøk!</h1>
       <MovieCards />
     </div>
   );
